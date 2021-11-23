@@ -1,0 +1,141 @@
+@media (max-width:1400px){
+    
+    .aside{
+        flex-direction: row;
+        height: max-content;
+        width: 100%;
+        align-items: center;
+        overflow: visible;
+    }
+    .aside:hover{
+        width: 100%;
+    }
+    .aside__icon{
+        margin: 0;
+    }
+    .aside__list{
+        display: flex;
+    }
+    .aside__link{
+        margin-bottom: 0;
+        margin-right: 30px;
+    }
+    .aside__link-icon{
+        margin-right: 0;
+    }
+    .aside__user{
+        margin: 0;
+    }
+    .intro{
+        background-color: tomato;
+    }
+}
+@media (max-width:1200px){
+    
+    .intro{
+        width: var(--col-12);
+    }
+    
+    .service{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .service__box{
+        margin: 30px 0 0 15px;
+    }
+    .service__box:last-child{
+        margin:15px 0 0;
+    }
+    
+    .about{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-content{
+        margin: 0;
+    }
+    .about-content-right{
+        width: var(--col-9);
+    }
+    .footer-content{
+        justify-content: space-around;
+    }
+}
+@media (max-width:992px) {
+    .aside{
+        position: relative;
+    }
+    .intro{
+        height: 400px;
+        margin: 0;
+    }
+    .intro-content{
+        margin-left: 15px;
+    }
+    .service__box{
+        width: var(--col-4);
+        margin: 15px;
+    }
+    .service__box:first-child{
+        margin-left: 15px;
+    }
+    .service__box:last-child{
+        margin: 15px;
+    }
+}
+@media (max-width:768px) {
+    .aside__link-icon{
+        display: none;
+    }
+    .aside__icon{
+        display: none;
+    }
+    .service__box{
+        width: var(--col-9);
+    }
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer__title{
+        margin: 15px 0;
+    }
+    .footer__contact{
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:576px) {
+    .aside{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .aside__list{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .intro__title{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .service__box{
+        width: var(--col-12);
+    }
+    .intro{
+        height: 300px;
+    }
+    .about__box{
+        width: var(--col-12);
+    }
+    .about__box-user{
+        width: var(--col-12);
+    }
+    .about-content{
+        width: var(--col-12);
+    }
+    .about-content-right{
+        width: var(--col-12);
+    }
+}
+@media (max-width:320px) {
+}
